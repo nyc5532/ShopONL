@@ -1,8 +1,8 @@
 // models/user.model.js
-// load những thư viện chúng ta cần
+// load all the libraries we need
 var mongoose = require('mongoose');
 
-// định nghĩ cấu trúc user model
+// định nghĩa cấu trúc user model
 var Schema = mongoose.Schema;
 var cates = new Schema({
    

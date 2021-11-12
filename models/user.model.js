@@ -1,9 +1,9 @@
 // models/user.model.js
-// load những thư viện chúng ta cần
+// load tất cả những thư viện chúng ta cần
 var mongoose = require('mongoose');
 var bcrypt = require('bcrypt-nodejs');
 
-// định nghĩ cấu trúc user model
+// định nghĩa các cấu trúc user model
 var Schema = mongoose.Schema;
 var schema = new Schema({
   
